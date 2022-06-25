@@ -10,7 +10,6 @@ class TestUserManager(unittest.TestCase):
     @classmethod
     def setUpClass(cls) -> None:
         cls.user = UserManager()
-        # cls.user.login()
         cls.user_id = TestUserManager.user_id
         cls.username = UserManagerData.add_user_data.get("username")
         cls.password = UserManagerData.add_user_data.get("password")
